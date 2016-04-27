@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="MemberInfos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="MemberInfo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="MemberGUID" />
+                            <xs:element name="NomUtilisateur" />
+                            <xs:element name="MotDePasse" />
+                            <xs:element name="Nom" />
+                            <xs:element name="Prenom" />
+                            <xs:element name="Adresse" />
+                            <xs:element name="Telephone" />
+                            <xs:element name="Societe" />
+                            <xs:element name="CreationDate" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

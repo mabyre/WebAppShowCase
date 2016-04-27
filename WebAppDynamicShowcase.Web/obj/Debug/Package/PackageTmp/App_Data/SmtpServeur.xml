@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SmtpServeur>
+  <useremail>sodevlog@gmail.com</useremail>
+  <sujetemail>Message du Site Vitrine</sujetemail>
+  <userpassword>zazaza</userpassword>
+  <enablessl>True</enablessl>
+  <username>sodevlog@gmail.com</username>
+  <servername>smtp.gmail.com</servername>
+  <serverport>25</serverport>
+  <adminemail>admin@sodevlog.com</adminemail>
+</SmtpServeur>

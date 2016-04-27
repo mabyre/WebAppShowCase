@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>Menu and sub-menu sample</menu>
+  <title>Title of main menu</title>
+  <description />
+  <content>&lt;p&gt;This is the page of the main menu sample.&lt;/p&gt;
+&lt;p&gt;This sample is her for you to look at the breadcrumb while you choose to navigate between diffrents level of menus.&lt;/p&gt;
+&lt;p&gt;Too see how the breadcrumb is managed.&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>False</isreserved>
+  <datecreated>2008-12-16 18:19:44</datecreated>
+  <datemodified>2016-04-25 15:08:29</datemodified>
+  <rang>1</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnonymeText" xml:space="preserve">
+    <value>Merci de vous authentifier.</value>
+  </data>
+  <data name="AuthentifieAdmin" xml:space="preserve">
+    <value>, vous êtes authentifié comme administrateur.</value>
+  </data>
+  <data name="AuthentifieAmi" xml:space="preserve">
+    <value>, vous êtes authentifié comme un ami.</value>
+  </data>
+  <data name="AuthentifieEditeur" xml:space="preserve">
+    <value>, vous êtes authentifié comme éditeur.</value>
+  </data>
+  <data name="AuthentifieText" xml:space="preserve">
+    <value>vous êtes authentifié.</value>
+  </data>
+  <data name="BonjourText" xml:space="preserve">
+    <value>Bonjour </value>
+  </data>
+  <data name="ChangePasswordButtonText" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ChangePasswordConfirmNewPasswordLabelText" xml:space="preserve">
+    <value>Confirmer :</value>
+  </data>
+  <data name="ChangePasswordCreateUserText" xml:space="preserve">
+    <value>Créer un utilisateur</value>
+  </data>
+  <data name="ChangePasswordEditProfileText" xml:space="preserve">
+    <value>Editez votre Profil</value>
+  </data>
+  <data name="ChangePasswordInstructionText" xml:space="preserve">
+    <value>Entrez votre Nom d'utilisateur et votre ancien Mot de passe.</value>
+  </data>
+  <data name="ChangePasswordTitre" xml:space="preserve">
+    <value>Modifier votre mot de passe :</value>
+  </data>
+  <data name="CreateNewRoleErreurRoleExist" xml:space="preserve">
+    <value>Le rôle ***role*** Existe déjà.</value>
+  </data>
+  <data name="CreateNewRoleErreurRoleSelected" xml:space="preserve">
+    <value>Donner un rôle à créer.</value>
+  </data>
+  <data name="CreateNewRoleSuccess" xml:space="preserve">
+    <value>Le rôle ***role*** à été créé avec succès.</value>
+  </data>
+  <data name="CreateNewRoleSuccessErreurCreated" xml:space="preserve">
+    <value>Le Rôle ***role*** &lt;u&gt;n'as pas été&lt;/u&gt; créé.</value>
+  </data>
+  <data name="CreateRoleAddRoleErreurRoleSelected" xml:space="preserve">
+    <value>Sélectionner un rôle à ajouter.</value>
+  </data>
+  <data name="CreateRoleAddRoleErreurUseInRolerExist" xml:space="preserve">
+    <value>L'utilisateur ***user*** existe déjà dans le rôle ***role***.</value>
+  </data>
+  <data name="CreateRoleAddRoleErreurUserSelected" xml:space="preserve">
+    <value>Sélectionner un utilisateur.</value>
+  </data>
+  <data name="CreateRoleAddRoleUserInRoleSuccess" xml:space="preserve">
+    <value>Rôle ***role*** ajouter avec succès à l'utilisateur ***user***.</value>
+  </data>
+  <data name="CreateRoleApplication" xml:space="preserve">
+    <value>Rôles Application :</value>
+  </data>
+  <data name="CreateRoleBoutonAnnuler" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="CreateRoleBoutonEditer" xml:space="preserve">
+    <value>Editer</value>
+  </data>
+  <data name="CreateRoleBoutonEditerToolTip" xml:space="preserve">
+    <value>Editer un utilisateur</value>
+  </data>
+  <data name="CreateRoleBoutonSupprimer" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="CreateRoleBoutonSupprimerRole" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="CreateRoleBoutonSupprimerRoleToolTip" xml:space="preserve">
+    <value>Supprimer un rôle</value>
+  </data>
+  <data name="CreateRoleBoutonSupprimerToolTip" xml:space="preserve">
+    <value>Supprimer un utilisateur</value>
+  </data>
+  <data name="CreateRoleButton" xml:space="preserve">
+    <value>Créer le rôle</value>
+  </data>
+  <data name="CreateRoleHyperLinkCreerUtilisateur" xml:space="preserve">
+    <value>Créer un utilisateur</value>
+  </data>
+  <data name="CreateRoleHyperLinkPageSecurisee" xml:space="preserve">
+    <value>Retour à la page sécurisée</value>
+  </data>
+  <data name="CreateRoleLabelRoleApplication" xml:space="preserve">
+    <value>Utilisateurs du rôle  :</value>
+  </data>
+  <data name="CreateRoleLableCreerRole" xml:space="preserve">
+    <value>Créer un rôle :</value>
+  </data>
+  <data name="CreateRoleRemoveRoleErreurLastAdmin" xml:space="preserve">
+    <value>Vous êtes le dernier "Administrateur" de cette application.
+Vous ne pouvez pas vous supprimer de ce rôle.</value>
+  </data>
+  <data name="CreateRoleRemoveRoleErreurUserInRoleSelected" xml:space="preserve">
+    <value>Sélectionner un rôle à supprimer de l'utilisateur.</value>
+  </data>
+  <data name="CreateRoleRemoveRoleErreurUserSelected" xml:space="preserve">
+    <value>Sélectionner un utilisateur à supprimer dans ce rôle.</value>
+  </data>
+  <data name="CreateRoleRemoveRoleSuccess" xml:space="preserve">
+    <value>Rôle ***role*** retiré avec succès de l'utilisateur ***user***.</value>
+  </data>
+  <data name="CreateRoleRoleUtilisateur" xml:space="preserve">
+    <value>Rôles Utilisateur :</value>
+  </data>
+  <data name="CreateRoleTitre" xml:space="preserve">
+    <value>Gérer les utilisateurs avec :</value>
+  </data>
+  <data name="CreateRoleUtilisateur" xml:space="preserve">
+    <value>Les Utilisateurs  :</value>
+  </data>
+  <data name="CreateUserText" xml:space="preserve">
+    <value>Enregistrer un nouvel utilisateur</value>
+  </data>
+  <data name="EditerUtilisateurErreurUserSelected" xml:space="preserve">
+    <value>Sélectionner un utilisateur à éditer.</value>
+  </data>
+  <data name="EditProfileAdresseMessagerie" xml:space="preserve">
+    <value>Adresse de messagerie :</value>
+  </data>
+  <data name="EditProfileBoutonModifier" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="EditProfileBoutonSupprimer" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="EditProfileConfirmPassWord" xml:space="preserve">
+    <value>Confirm password :</value>
+  </data>
+  <data name="EditProfileDateCreation" xml:space="preserve">
+    <value>Date de création :</value>
+  </data>
+  <data name="EditProfileDerniereActivite" xml:space="preserve">
+    <value>Dernière activité sur le site :</value>
+  </data>
+  <data name="EditProfileDerniereConnexion" xml:space="preserve">
+    <value>Dernière connexion :</value>
+  </data>
+  <data name="EditProfileDerniereMotDePass" xml:space="preserve">
+    <value>Dernier mot de passe changé le  :</value>
+  </data>
+  <data name="EditProfilePassWord" xml:space="preserve">
+    <value>Mot de passe :</value>
+  </data>
+  <data name="EditProfileQuestionSecurite" xml:space="preserve">
+    <value>Question de sécurité :</value>
+  </data>
+  <data name="EditProfileReponseSecurite" xml:space="preserve">
+    <value>Réponse de sécurité :</value>
+  </data>
+  <data name="EditProfileTitre" xml:space="preserve">
+    <value>Editer/Modifier votre profil</value>
+  </data>
+  <data name="EditProfileUserName" xml:space="preserve">
+    <value>Nom d'utilisateur :</value>
+  </data>
+  <data name="ErreurEnvoitConfirmation" xml:space="preserve">
+    <value>Erreur à l'envoit de la Confirmation :</value>
+  </data>
+  <data name="FormatAdresseNonValide" xml:space="preserve">
+    <value>Le format de l'adresse de messagerie n'est pas valide.</value>
+  </data>
+  <data name="HelpPageText" xml:space="preserve">
+    <value>Aide ?</value>
+  </data>
+  <data name="HyperLinkAide" xml:space="preserve">
+    <value>Aide ?</value>
+  </data>
+  <data name="HyperLinkChangePasswordText" xml:space="preserve">
+    <value>Changer votre mot de passe</value>
+  </data>
+  <data name="HyperLinkCreateRoleText" xml:space="preserve">
+    <value>Gérer les rôles utilisateurs</value>
+  </data>
+  <data name="HyperLinkEditProfileText" xml:space="preserve">
+    <value>Editez votre profil utilisateur</value>
+  </data>
+  <data name="HyperLinkEnregistrezUtilisateur" xml:space="preserve">
+    <value>Enregistrez un nouvel utilisateur</value>
+  </data>
+  <data name="HyperLinkPageSecurisee" xml:space="preserve">
+    <value>Accédez à l'application sécurisée</value>
+  </data>
+  <data name="LoginText" xml:space="preserve">
+    <value>Connectez-vous</value>
+  </data>
+  <data name="LoginTitleText" xml:space="preserve">
+    <value>Connectez-vous à l'application</value>
+  </data>
+  <data name="LogoutText" xml:space="preserve">
+    <value>Déconnectez-vous</value>
+  </data>
+  <data name="PasswordRecoveryAnswer" xml:space="preserve">
+    <value>Réponse :</value>
+  </data>
+  <data name="PasswordRecoveryEmailBody" xml:space="preserve">
+    <value>Votre mot de passe est : ***pass***</value>
+  </data>
+  <data name="PasswordRecoveryEmailSubject" xml:space="preserve">
+    <value>Sujet : votre mot de passe dans le module login</value>
+  </data>
+  <data name="PasswordRecoveryFailed" xml:space="preserve">
+    <value>Erreur lors de la récupération de votre mot de passe :</value>
+  </data>
+  <data name="PasswordRecoveryPageLoadMessage" xml:space="preserve">
+    <value>Entrez un nom d'utilisateur.</value>
+  </data>
+  <data name="PasswordRecoveryQuestion" xml:space="preserve">
+    <value>Question de mot de passe :</value>
+  </data>
+  <data name="PasswordRecoveryQuestionEmpty" xml:space="preserve">
+    <value>Répondez à la question de mot de passe.</value>
+  </data>
+  <data name="PasswordRecoverySendPassWordMassage" xml:space="preserve">
+    <value>Envoyez mon mot de passe</value>
+  </data>
+  <data name="PasswordRecoverySuccess" xml:space="preserve">
+    <value>Votre mot de passe vous à été envoyé par email.</value>
+  </data>
+  <data name="PasswordRecoveryText" xml:space="preserve">
+    <value>Mot de passe oublié ?</value>
+  </data>
+  <data name="PasswordRecoveryTitre" xml:space="preserve">
+    <value>Retrouvez votre mot de passe, répondez à la question :</value>
+  </data>
+  <data name="PasswordRecoveryUserName" xml:space="preserve">
+    <value>Nom d'Utilisateur :</value>
+  </data>
+  <data name="PasswordRecoveryUserNotFound" xml:space="preserve">
+    <value>L'utilisateur ***user*** n'existe pas. Vérifiez votre nom d'utilisateur.</value>
+  </data>
+  <data name="RememberMeText" xml:space="preserve">
+    <value>Mémoriser ma connexion</value>
+  </data>
+  <data name="SiteMapNodeAccueil" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="SupprimeProfileButtonSupprimerLastAdmin" xml:space="preserve">
+    <value>Vous êtes le dernier "Administrateur" de cette application.
+Vous ne pouvez pas vous supprimer.\n</value>
+  </data>
+  <data name="SupprimeProfileButtonSupprimerUserDeletedSuccess" xml:space="preserve">
+    <value>Votre compte a été supprimé.</value>
+  </data>
+  <data name="SupprimeProfileTitre" xml:space="preserve">
+    <value>Supprimer votre compte ?</value>
+  </data>
+  <data name="SupprimeProfileUserEmail" xml:space="preserve">
+    <value>Adresse de messagerie :</value>
+  </data>
+  <data name="SupprimeProfileUserName" xml:space="preserve">
+    <value>Nom d'Utilisateur :</value>
+  </data>
+  <data name="SupprimerRoleErreurRoleAdminSelected" xml:space="preserve">
+    <value>Vous ne pouvez pas supprimer le role "Administrateur".</value>
+  </data>
+  <data name="SupprimerRoleErreurRoleSelected" xml:space="preserve">
+    <value>Sélectionner un rôle à supprimer.</value>
+  </data>
+  <data name="SupprimerRoleFailed" xml:space="preserve">
+    <value>Le Rôle ***role*** n'as pas pu être supprimé.</value>
+  </data>
+  <data name="SupprimerRoleSuccess" xml:space="preserve">
+    <value>Le rôle ***role*** supprimé avec succès.</value>
+  </data>
+  <data name="SupprimerUtilisateurErreurLastAdmin" xml:space="preserve">
+    <value>***user*** est le dernier "Administrateur" de cette application. Vous ne pouvez pas le supprimer.</value>
+  </data>
+  <data name="SupprimerUtilisateurErreurUserDeletedHimself" xml:space="preserve">
+    <value>Vous êtes en train de supprimer votre compte.
+Pour cela vous devez passez pas le formulaire de suppression d'un compte.</value>
+  </data>
+  <data name="SupprimerUtilisateurErreurUserSelected" xml:space="preserve">
+    <value>Sélectionner un utilisateur à supprimer.</value>
+  </data>
+  <data name="SupprimerUtilisateurSuccess" xml:space="preserve">
+    <value>L'utilisateur ***user*** a été supprimé avec succès.</value>
+  </data>
+  <data name="TitrePage" xml:space="preserve">
+    <value>Page d'acceuil - Status de connexion -</value>
+  </data>
+  <data name="TitreSite" xml:space="preserve">
+    <value>Sodevlog - Module d'authentification</value>
+  </data>
+</root>

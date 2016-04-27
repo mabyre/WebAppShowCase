@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="Admin">
+        <siteMapNode url="~/Admin/Page/Pages.aspx" title="Pages" description="Gestion des Pages du Menu Dynamique" />
+        <siteMapNode url="~/Admin/Page/Settings.aspx" title="Paramètres" description="" />
+        <siteMapNode url="~/Admin/Page/StyleSheet.aspx" title="StyleSheet" description="Gestion des fichiers .css dans App_Themes"  />
+        <siteMapNode url="~/Admin/Page/SiteMap.aspx" title="Site Map" description="Gestion du fichier Web.sitemap" />
+        <siteMapNode url="~/Admin/Page/SmtpServeur.aspx" title="Serveur SMTP" description="Paramètres du Serveur Smtp"/>
+        <siteMapNode url="~/Admin/Page/LogUser.aspx" title="Log" description="" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>Bruno</author>
+  <menu>page bruno</menu>
+  <title>la page de bruno éù</title>
+  <description />
+  <content>&lt;p&gt;mon texte&lt;/p&gt;
+&lt;p&gt;bruno modif&lt;/p&gt;
+&lt;p&gt;encore modif bruno&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>False</isreserved>
+  <datecreated>2008-12-16 18:21:39</datecreated>
+  <datemodified>2009-06-13 15:19:35</datemodified>
+  <rang>10</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

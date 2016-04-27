@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<WebContents>
+  <WebContent>
+    <WebContentID>e644eb47-9989-4dbe-aae2-363cfcc15ded</WebContentID>
+    <Section>WelcomeBack</Section>
+    <SectionContent>&lt;p&gt;Welcome Back&lt;/p&gt;</SectionContent>
+    <CreationDate>21/05/2008 13:55:30</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>eea06fa7-0dbd-4101-a4c5-3567407f8154</WebContentID>
+    <Section>BandeauSite</Section>
+    <SectionContent>&lt;table cellspacing="15" cellpadding="0" align="left" border="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;h1&gt;Mon Site Vitrine&lt;/h1&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</SectionContent>
+    <CreationDate>28/05/2008 09:47:16</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>951dfec0-33ec-4781-a576-cd6767f78c55</WebContentID>
+    <Section>ColonneGauche</Section>
+    <SectionContent>&lt;p&gt;&lt;/p&gt;</SectionContent>
+    <CreationDate>21/05/2008 17:31:38</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>48de328c-23cb-4546-8db7-b51d23e1c08e</WebContentID>
+    <Section>ColonneDroite</Section>
+    <SectionContent>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table cellspacing="1" cellpadding="1" width="190" border="1"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;C'est la colonne &amp;agrave; droite&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</SectionContent>
+    <CreationDate>21/05/2008 17:43:22</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>b2ed1442-96d6-41cc-89bb-2c8ad66f98bb</WebContentID>
+    <Section>EnpiedSite</Section>
+    <SectionContent>&lt;p&gt;&lt;/p&gt;</SectionContent>
+    <CreationDate>21/05/2008 17:31:38</CreationDate>
+  </WebContent>
+</WebContents>

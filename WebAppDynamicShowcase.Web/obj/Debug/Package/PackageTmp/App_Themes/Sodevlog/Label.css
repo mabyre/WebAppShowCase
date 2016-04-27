@@ -1,0 +1,91 @@
+.LabelColoredStyle
+{ 
+    color:Blue;
+    font-size:14px;
+    font-weight:normal;
+    font-family: Verdana; 
+}
+
+.LabelStyle
+{ 
+    font-size:12px;
+    font-family: Verdana; 
+}
+
+.LabelRedStyle
+{ 
+    color:Red;
+    font-size:12px;
+    font-family: Verdana; 
+}
+
+.LabelApprouveRedStyle
+{ 
+    color:Red;
+}
+
+.RegularExpressionValidatorStyle 
+{ 
+    color:Red;
+    font-size:12px;
+    font-family: Verdana; 
+    text-align:left;
+}
+
+.LabelValidationMessageStyle
+{
+  font-family: verdana; 
+  font-size: 12px; 
+  font-weight: normal; 
+  text-align: left;
+  color:Blue;
+}
+
+.LabelValidationMessageErrorStyle
+{
+  font-family: verdana; 
+  font-size: 12px; 
+  font-weight: normal; 
+  text-align: left;
+  color: Red;
+  height:35px;
+}
+
+.LabelColoredStyle
+{ 
+    color:Blue;
+    font-size:14px;
+    font-weight:normal;
+    font-family: Verdana; 
+}
+
+.LabelApprouveRedStyle
+{ 
+    color:Red;
+}
+
+.RegularExpressionValidatorStyle 
+{ 
+    color:Red;
+    font-size:12px;
+    font-family: Verdana; 
+    text-align:left;
+}
+
+.RequiredFieldValidatorStyle
+{ 
+    color:Red;
+    font-size:12px;
+    font-family: Verdana; 
+    text-align:left;
+}
+
+.TextboxStyle
+{
+    border: 1px solid #C1C1C1;
+    font-size:12px;
+    font-family: Verdana; 
+    height:20px;
+    width:220;
+    text-align:left;
+}

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>Reserved</menu>
+  <title>This page is reserved to members</title>
+  <description>This is the description of the reserved page</description>
+  <content>&lt;p&gt;This pas is reserved to members you could only see this page if you are member.&lt;/p&gt;
+&lt;p&gt;You should be user and connected !&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>True</isreserved>
+  <datecreated>2008-06-24 16:23:06</datecreated>
+  <datemodified>2016-04-25 14:59:34</datemodified>
+  <rang>1</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

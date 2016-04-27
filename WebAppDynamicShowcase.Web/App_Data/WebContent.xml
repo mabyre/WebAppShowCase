@@ -1,0 +1,91 @@
+<?xml version="1.0" standalone="yes"?>
+<WebContents>
+  <WebContent>
+    <WebContentID>e644eb47-9989-4dbe-aae2-363cfcc15ded</WebContentID>
+    <Section>WelcomeBack</Section>
+    <SectionContent>&lt;p&gt;Welcome Back&lt;/p&gt;</SectionContent>
+    <CreationDate>21/05/2008 13:55:30</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>eea06fa7-0dbd-4101-a4c5-3567407f8154</WebContentID>
+    <Section>BandeauSite</Section>
+    <SectionContent>&lt;table cellspacing="15" cellpadding="0" align="left" border="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td rowspan="2"&gt;&amp;nbsp;&lt;a class="lien_image" title="www.sodevlog.com" target="_self" href="/page/Qui-sommes-nous-.aspx"&gt;&lt;img border="0" alt="SoDevLog : Editeur de la solution logicielle &amp;quot;Questionnaire en ligne&amp;quot;, r&amp;eacute;alisez vos questionnaires, vos enqu&amp;ecirc;tes, vos sondages directement en ligne" src="/UserFiles/BandeauSite/sodevlog_logo.gif" /&gt;&lt;/a&gt;&lt;/td&gt;
+            &lt;td&gt;
+            &lt;h1&gt;Dynamic Online Showcase - SoDevLog&lt;/h1&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</SectionContent>
+    <CreationDate>25/04/2016 15:42:26</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>951dfec0-33ec-4781-a576-cd6767f78c55</WebContentID>
+    <Section>ColonneGauche</Section>
+    <SectionContent>&lt;table cellspacing="0" cellpadding="8" width="182" style="border: 2px solid white;"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;h2&gt;&lt;span style="font-size: smaller;"&gt;Customer Space&lt;/span&gt;&lt;/h2&gt;
+            &lt;p&gt;&lt;span style="font-size: smaller;"&gt;Do you have an account ?&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a class="lien_navigation" title="Acc&amp;egrave;s utilisateur" target="_self" href="/Member/Login.aspx"&gt;Go to your Account&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;span style="font-size: smaller;"&gt;Don't have yet ?&lt;/span&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;a href="/Member/Register.aspx" class="lien_navigation" target="_self" title="Enregistrez-vous"&gt;Register&lt;/a&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</SectionContent>
+    <CreationDate>25/04/2016 15:47:48</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>48de328c-23cb-4546-8db7-b51d23e1c08e</WebContentID>
+    <Section>ColonneDroite</Section>
+    <SectionContent>&lt;table cellspacing="5" cellpadding="1" width="190" border="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;p&gt;Here is the right's column&lt;/p&gt;
+            &lt;p&gt;that you can show or not&lt;/p&gt;
+            &lt;p&gt;depending of the site's settings&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</SectionContent>
+    <CreationDate>25/04/2016 15:40:10</CreationDate>
+  </WebContent>
+  <WebContent>
+    <WebContentID>b2ed1442-96d6-41cc-89bb-2c8ad66f98bb</WebContentID>
+    <Section>EnpiedSite</Section>
+    <SectionContent>&lt;table width="100%" cellspacing="3" cellpadding="1" border="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+            &lt;p style="text-align: center"&gt;&lt;span style="font-size: xx-small"&gt;&lt;b&gt;&lt;span style="color: #3366ff"&gt;&lt;span style="font-family: Verdana"&gt;&lt;span id="ctl00_Label_Copyright"&gt;Copyright &amp;copy; 2006 - 2016 - &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;span style="color: #3366ff"&gt;&lt;span style="font-size: smaller"&gt;&lt;span style="font-family: Verdana"&gt;&lt;span id="ctl00_Label_Copyright"&gt;&lt;b&gt;&lt;span style="font-size: xx-small"&gt;&lt;a href="http://www.sodevlog.fr" target="_blank" class="lien_sans_icone"&gt;&lt;span style="color: #3366ff"&gt;SoDevLog&lt;/span&gt;&lt;/a&gt;&lt;span&gt; (Soci&amp;eacute;t&amp;eacute; de D&amp;eacute;veloppement Logiciel)&amp;nbsp;- Contact by phone &amp;nbsp;:&amp;nbsp;04 67 55 94 93 - &lt;a href="/page/Qui-sommes-nous-.aspx" class="lien_sans_icone"&gt;&lt;span style="color: #3366ff"&gt;Legal notice&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--  Google tracking code --&gt;&lt;script type="text/javascript"&gt;
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+try {
+var pageTracker = _gat._getTracker("UA-4786105-1");
+pageTracker._trackPageview();
+} catch(err) {}
+&lt;/script&gt;&lt;!--  Google tracking code --&gt;&lt;script type="text/javascript"&gt;
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+&lt;/script&gt;&lt;script type="text/javascript"&gt;
+try {
+var pageTracker = _gat._getTracker("UA-10103729-1");
+pageTracker._trackPageview();
+} catch(err) {}
+&lt;/script&gt;</SectionContent>
+    <CreationDate>25/04/2016 15:50:09</CreationDate>
+  </WebContent>
+</WebContents>

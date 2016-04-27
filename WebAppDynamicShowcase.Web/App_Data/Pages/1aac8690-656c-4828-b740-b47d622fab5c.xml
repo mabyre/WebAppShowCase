@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu> CSS's Styles</menu>
+  <title>Sample of CSS's automatic styles</title>
+  <description />
+  <content>&lt;h1&gt;Texte en H1&lt;/h1&gt;
+&lt;p&gt;&lt;a href="http://www.aaa.com"&gt;hyperlink&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_self" href="http://aaaa"&gt;hyperlink interne&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="lien_image" target="_blank" href="http:/page/La-page-daccueil.aspx"&gt;&lt;img alt="/UserFiles/noavatar.jpg" src="/UserFiles/noavatar.jpg" /&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;lien image externe de class=&amp;quot;lien_image&amp;quot;&lt;br /&gt;
+pas d'image&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a class="lien_image_intern" target="_self" href="http:/page/La-page-daccueil.aspx"&gt;&lt;img alt="/UserFiles/noavatar.jpg" src="/UserFiles/noavatar.jpg" /&gt;&amp;nbsp;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;lien image interne&lt;br /&gt;
+a[class^=&amp;quot;lien_image_intern&amp;quot;] cache le petit trait pourri&lt;br /&gt;
+image &amp;agrave; gauche&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" href="https://www.microsoft.com/fr-fr/"&gt;&lt;img alt="/UserFiles/noavatar.jpg" src="/UserFiles/noavatar.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;lien image extern&lt;br /&gt;
+l'image &amp;agrave; droite &amp;quot;cache le petit traite pourri&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a class="lien_mail_to" target="_blank" href="http://aaa"&gt;hyperlink extern mailto&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;link avec a[class^=&amp;quot;lien_mail_to&amp;quot;]&lt;br /&gt;
+parce que l'on utilise pour les email pas un mail to mais un lien vers&lt;br /&gt;
+un formulaire de contact&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>False</isreserved>
+  <datecreated>2008-06-03 17:36:02</datecreated>
+  <datemodified>2016-04-25 15:31:00</datemodified>
+  <rang>1</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

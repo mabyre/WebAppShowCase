@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>Aide</menu>
+  <title>Page d'aide du Site Vitrine</title>
+  <description />
+  <content>&lt;p&gt;l'aide en ligne, cette page est reserv&amp;eacute;e aus membre&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>True</isreserved>
+  <datecreated>2008-06-20 18:18:04</datecreated>
+  <datemodified>2016-03-03 14:44:14</datemodified>
+  <rang>20</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

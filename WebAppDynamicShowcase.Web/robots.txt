@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /App_Data
+/App_Themes
+/bin
+/FCKeditor
+
+Allow:
+/App_Data/Pages

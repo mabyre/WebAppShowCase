@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>Help</menu>
+  <title>Help pages of the Dynamic Showcase Site</title>
+  <description>Online Help</description>
+  <content>&lt;p&gt;Online help or Dynamic Showcase Site reserved to members&lt;/p&gt;</content>
+  <keywords />
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>True</isreserved>
+  <datecreated>2008-06-20 18:18:04</datecreated>
+  <datemodified>2016-04-25 15:33:31</datemodified>
+  <rang>20</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

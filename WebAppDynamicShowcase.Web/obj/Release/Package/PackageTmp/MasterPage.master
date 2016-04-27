@@ -1,0 +1,87 @@
+﻿<%@	Master Language="C#" Inherits="MasterPage" Codebehind="MasterPage.master.cs" %>
+<%@ Register Src="~/Controls/LoginBanner.ascx" TagName="LoginBanner" TagPrefix="usrc" %>
+<%@ Register Src="~/Controls/MenuPanel.ascx" TagName="MenuPanel" TagPrefix="usrc" %>
+<%@ Register Src="~/Controls/AdminMenu.ascx" TagName="AdminMenu" TagPrefix="usrc" %>
+<%@ Register Src="~/Controls/WebContent.ascx" TagName="WebContent" TagPrefix="usrc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7"/>
+    <link rel="shortcut icon" href="~/Images/favicon.ico" />
+    <title>Site Vitrine</title>
+</head>
+
+<body bottommargin="0" rightmargin="0" leftmargin="0" topmargin="0">
+<form id="form1" runat="server" >
+
+<!-- Bandeau Nom du Site et Login Banner -->
+<table class="TableBandeauSiteStyle" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td width="auto">
+            <usrc:WebContent ID="WebContent1" Section="BandeauSite" runat="server" />
+        </td>
+        <td class="TdLoginBannerStyle" valign="top" align="right">    
+            <usrc:LoginBanner ID="onsenfout3" runat="server" />
+        </td>
+    </tr>
+</table>
+
+
+<!-- Barre de Menu -->
+<table class="TableMenuPanelStyle" cellpadding="0" cellspacing="0">
+<tr>
+    <td class="TdMenuPanelStyle">
+       <usrc:MenuPanel ID="MenuPanel" runat="server" />
+    </td>
+</tr>
+</table>
+
+<!-- Barre de navigation liee au fichier Web.sitmap -->
+<div id="DivBarreNavigationStyle" class="DivClassBarreNavigationStyle">
+    <asp:SiteMapPath ID="SiteMapPath2" runat="Server" 
+    CssClass="SiteMapPathStyle" 
+    PathSeparator=" » " 
+    RenderCurrentNodeAsLink="True" 
+    PathSeparatorStyle-ForeColor="#999999"
+    CurrentNodeStyle-ForeColor="#5282D4" 
+    ParentLevelsDisplayed="3" 
+    ToolTip="Barre de Navigation">
+    </asp:SiteMapPath>
+</div>
+
+<!-- Contenu des Pages -->
+<table class="TablePagesStyle" cellpadding="0" cellspacing="0" width="100%" border="0">
+<tr>
+    <!-- Colonne de gauche -->
+    <td class="TdColonneGaucheStyle" valign="top" width="190px" align="left">
+        <usrc:WebContent ID="WebContent2" Section="ColonneGauche" runat="server" />
+        <usrc:AdminMenu ID="AdminMenu" Visible="false" runat="server" />
+    </td>
+    <!-- Centre -->
+    <td class="TdColonneCentreStyle" valign="top" align="left">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server" />
+    </td>
+    <!-- Colonne de droite -->
+    <td class="TdColonneDroiteStyle" valign="top" align="right">
+        <asp:Panel ID="PanelColonneDroiteVisible" runat="server" Visible="false" >
+            <usrc:WebContent ID="WebContent3" Section="ColonneDroite" runat="server" />
+        </asp:Panel>
+    </td>
+</tr>
+</table>
+
+<!-- Enpied du Site -->
+<asp:Panel ID="PanelEnpiedSiteVisible" runat="server" Visible="false">
+<table class="TableEnpiedSiteStyle"  cellpadding="0" cellspacing="0" width="100%">
+<tr>
+    <td class="TdEnpiedSiteStyle" valign="top">
+        <usrc:WebContent ID="WebContent4" Section="EnpiedSite" runat="server" />
+    </td>
+</tr>
+</table>
+</asp:Panel>
+
+</form>
+</body>
+</html>

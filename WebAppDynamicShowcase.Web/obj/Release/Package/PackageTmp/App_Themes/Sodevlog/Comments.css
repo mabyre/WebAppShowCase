@@ -1,0 +1,137 @@
+﻿/*----------------------------
+    Comments
+----------------------------*/
+
+.comment
+{
+    border: 1px solid silver;
+    background-color: white;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+	font-size: 12px;
+    text-align: left;
+}
+
+.comment .date 
+{
+	font-size: 10px;
+	color: #666666;
+	text-align: right;
+	margin: 0;
+	padding: 3px 0px;
+	border-bottom: 1px dashed silver;
+}
+
+.comment a
+{
+    color:#5C80B1;
+    text-decoration:none;
+}
+
+.comment a:hover
+{
+	text-decoration: underline;
+}
+
+.comment .author 
+{
+    color:#5C80B1;
+	margin: 0;
+	padding: 3px 0px;
+	border-top: 1px dashed silver;
+	text-align: left;
+}
+
+.self 
+{
+	border: 1px solid black;
+}
+
+.comment .gravatar 
+{
+	float: left;
+	clear: both;
+	margin: 5px 10px 5px 0;
+}
+
+.comment .gravatar img 
+{
+	height: 80px;
+	width: 80px;
+}
+
+.comment .content 
+{
+	min-height: 85px;
+	margin: 5px;
+	margin-left: 85px;
+}
+
+.comment img.flag 
+{
+	position: relative;
+	top: 2px;
+}
+
+.commentForm 
+{
+	padding: 5px;
+    border:1px solid silver;margin:10px;
+}
+
+.commentForm label 
+{
+	float: left;
+	display: block;
+	width: 80px;
+	margin-top: 4px;
+}
+
+.commentForm input 
+{
+	width: 160px;
+}
+
+.commentForm textarea 
+{
+	width: 100%;
+	height: 150px;
+}
+
+.success 
+{
+	color: green;
+	font-weight: bold;
+}
+
+/*----------------------------
+    Comments List
+----------------------------*/
+#commentlist
+{
+    background:white;
+    padding:5px 10px 10px 10px;
+    border:1px solid silver;margin:10px
+}
+
+#commentlist p
+{
+    padding:0px 0px 0px 5px;
+}
+
+.comment self
+{
+    border:0px none white;
+}
+
+.commentForm h1
+{
+    padding:10px 0px 20px 0px;
+}
+
+.commentForm label
+{
+    display:block;
+    margin-top:1px;
+}

@@ -1,0 +1,127 @@
+﻿/*----------------------------
+					 Posts
+----------------------------*/
+
+div.post, .mceContentBody {
+	border: 1px solid silver;
+	padding: 3px 10px;
+	margin-bottom: 20px;
+	background-color: white;
+	line-height: 17px;
+}
+
+div.post h1, .mceContentBody h1 {
+	margin: 0 0 7px 0;
+	position: relative;
+	top: 5px;
+}
+
+div.post .author {
+	color: #666666;
+	font-size: 10px;
+	float: left;
+	text-transform: capitalize;
+}
+
+div.post .pubDate {
+	color: #666666;
+	font-size: 10px;
+	float: right;
+}
+
+div.post .text {
+	margin-top: 30px;
+}
+
+div.post .text h2 {
+	margin-bottom: -10px;
+}
+
+div.post .text h3 {
+	font-size: 11px;
+	margin-bottom: -10px;
+	padding: 0;
+}
+
+div.post .footer {
+	text-align: right;
+	border-top: 1px dashed silver;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+div.post .bottom {
+	margin-bottom: 45px;
+}
+
+div.post .categories {
+	margin-bottom: 5px;
+	float: right;
+}
+
+div.post .tags {
+	float: left;
+	margin-bottom: 5px;
+}
+
+div.post .text a[href^="http:"] {
+	background: url(../../Images/remote.gif) right top no-repeat;
+	padding-right: 10px;
+  white-space: nowrap;
+}
+
+/*----------------------------
+			Related Posts
+----------------------------*/
+
+#relatedPosts {
+	background: white;
+	padding: 5px 10px 10px 10px;
+	border: 1px solid silver;
+}
+
+#relatedPosts h1 {
+	margin: 0px;
+}
+
+#relatedPosts a {
+	display: block;
+	margin-top: 5px;
+}
+
+#relatedPosts span {
+	color: #666666;
+	text-indent: 10px;
+	font-size: 10px;
+}
+
+/*----------------------------
+				Recent posts
+----------------------------*/
+
+ul.recentPosts li{
+	padding-bottom: 10px;
+}
+
+ul.recentPosts li a{
+	font-weight: bold;
+}
+
+ul.recentPosts li span{
+	display: block;
+	text-indent: 10px;
+	text-transform: none;
+}
+
+/*----------------------------
+			Recent comments
+----------------------------*/
+
+ul.recentComments li{
+	padding-bottom: 10px;
+	text-transform: none;
+}
+
+ul.recentComments li a.postTitle{
+	font-weight: bold;
+}

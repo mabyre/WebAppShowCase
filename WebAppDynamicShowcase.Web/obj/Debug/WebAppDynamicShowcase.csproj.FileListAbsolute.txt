@@ -1,0 +1,15 @@
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\bin\readme.txt
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\bin\version.txt
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\bin\WebAppSiteVitrine.dll.config
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\bin\WebAppSiteVitrine.dll
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\bin\WebAppSiteVitrine.pdb
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\obj\Debug\WebAppDynamicShowcase.csprojResolveAssemblyReference.cache
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\obj\Debug\WebAppSiteVitrine.dll
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppDynamicShowcase.Web\obj\Debug\WebAppSiteVitrine.pdb
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\bin\readme.txt
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\bin\version.txt
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\bin\WebAppDynamicShowcase.dll.config
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\bin\WebAppDynamicShowcase.dll
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\bin\WebAppDynamicShowcase.pdb
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\obj\Debug\WebAppDynamicShowcase.dll
+E:\Visual Studio\ASP.NET\WebAppDynamicShowcase\WebAppDynamicShowcase.Web\obj\Debug\WebAppDynamicShowcase.pdb

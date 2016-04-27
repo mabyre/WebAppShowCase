@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<MemberInfos>
+  <MemberInfo>
+    <MemberGUID>a03abd98-eecd-4ec0-b12b-5436b1db2c8c</MemberGUID>
+    <NomUtilisateur>admin</NomUtilisateur>
+    <MotDePasse>admin</MotDePasse>
+    <Nom />
+    <Prenom />
+    <Adresse />
+    <Telephone />
+    <Societe />
+    <CreationDate>13/05/2008 19:56:29</CreationDate>
+  </MemberInfo>
+  <MemberInfo>
+    <MemberGUID>f256ae21-5c0e-4e7d-903d-3de9d3b2cb64</MemberGUID>
+    <NomUtilisateur>a</NomUtilisateur>
+    <MotDePasse>aaa</MotDePasse>
+    <Nom>a</Nom>
+    <Prenom>a</Prenom>
+    <Adresse>a</Adresse>
+    <Telephone />
+    <Societe>a</Societe>
+    <CreationDate>20/06/2008 18:08:26</CreationDate>
+  </MemberInfo>
+  <MemberInfo>
+    <MemberGUID>c1fb5c3f-7d5d-45e9-bee8-f655f7496ae3</MemberGUID>
+    <NomUtilisateur>z</NomUtilisateur>
+    <MotDePasse>zzz</MotDePasse>
+    <Nom>z</Nom>
+    <Prenom>z</Prenom>
+    <Adresse>z</Adresse>
+    <Telephone />
+    <Societe>z</Societe>
+    <CreationDate>21/06/2008 13:47:02</CreationDate>
+  </MemberInfo>
+  <MemberInfo>
+    <MemberGUID>084cc507-4165-4ee9-9778-5a790b9b42d1</MemberGUID>
+    <NomUtilisateur>Bruno</NomUtilisateur>
+    <MotDePasse>aaa</MotDePasse>
+    <Nom>Raby</Nom>
+    <Prenom>bruno</Prenom>
+    <Adresse />
+    <Telephone />
+    <Societe>SDL</Societe>
+    <CreationDate>25/06/2008 10:33:56</CreationDate>
+  </MemberInfo>
+  <MemberInfo>
+    <MemberGUID>941c4133-4be3-440b-a2ac-1b2585d06226</MemberGUID>
+    <NomUtilisateur>xxx</NomUtilisateur>
+    <MotDePasse>xxx</MotDePasse>
+    <Nom>x</Nom>
+    <Prenom>x</Prenom>
+    <Adresse>x</Adresse>
+    <Telephone>x</Telephone>
+    <Societe>x</Societe>
+    <CreationDate>18/05/2009 19:52:34</CreationDate>
+  </MemberInfo>
+  <MemberInfo>
+    <MemberGUID>eb41c832-96a6-4bf5-8ff1-f1924856c833</MemberGUID>
+    <NomUtilisateur>qqq</NomUtilisateur>
+    <MotDePasse>qqq</MotDePasse>
+    <Nom>q</Nom>
+    <Prenom>q</Prenom>
+    <Adresse>q</Adresse>
+    <Telephone>q</Telephone>
+    <Societe>q</Societe>
+    <CreationDate>18/05/2009 20:11:03</CreationDate>
+  </MemberInfo>
+</MemberInfos>

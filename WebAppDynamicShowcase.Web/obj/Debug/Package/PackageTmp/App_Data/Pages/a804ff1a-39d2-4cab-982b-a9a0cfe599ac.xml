@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>Home</menu>
+  <title>Home page</title>
+  <description>Here you are on the Dynamic Showcase edited by SoDevLog. Make it you're own site cause it is an open source project.</description>
+  <content>&lt;script type="text/javascript"&gt;&lt;!--
+google_ad_client = "pub-5258491224020189";
+/* 728x90, date de création 30/06/08 */
+google_ad_slot = "1477362572";
+google_ad_width = 728;
+google_ad_height = 90;
+//--&gt;
+&lt;/script&gt;&lt;script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"&gt;
+&lt;/script&gt;
+&lt;p&gt;This is the home page.&lt;/p&gt;
+&lt;p&gt;Welcome on the SoDevLog's Dynamic Online Showcase.&lt;/p&gt;
+&lt;p&gt;This site is made for making communication on whatever you want.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/UserFiles/euro.gif" alt="/UserFiles/euro.gif" /&gt;&lt;/p&gt;</content>
+  <keywords>questionnaire, en , ligne</keywords>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>True</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>False</isreserved>
+  <datecreated>2008-05-22 13:42:56</datecreated>
+  <datemodified>2016-04-25 15:42:59</datemodified>
+  <rang>0</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments>
+    <comment id="2ec21fea-b965-48c5-a3d0-0b63a5e0baa9" approved="True">
+      <date>2008-12-16 18:28:19</date>
+      <author>bbb</author>
+      <email>bruno@sodevlog.com</email>
+      <country>fr</country>
+      <ip>127.0.0.1</ip>
+      <website>http://www.sodevlog.com/</website>
+      <content>bbb</content>
+    </comment>
+  </comments>
+</page>

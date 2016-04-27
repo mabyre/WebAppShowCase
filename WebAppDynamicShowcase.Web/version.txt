@@ -1,0 +1,137 @@
+25/04/2016
+
+*** 15/03/2016
+BRY_15032016 : Tenter de pallier à une Boucle de redirection sur IIS 7.5 ou 8 WS2008 R2
+la solution est dans le Web.config, un problème de culture sur le serveur de recette en English ...
+Ggggrrrrrrrrrr : DateTime Format is not good !
+
+29/05/2009
+Ajout du code de comptatibilité google chrome de merde !
+if ( Request.UserAgent.IndexOf( "AppleWebKit" ) > 0 )
+{
+    Request.Browser.Adapters.Clear();
+} 
+
+21/05/2009
+Ajout de style a[] pour fabriquer des liens automatique
+Ajout d'un bouton Annuler dans la Admin/Page/Pages.aspx pour revenir à la page sans sauver.
+
+20/05/2009
+Création d'un SiteMapPath et de sa gestion dans la partie Admin comme StyleSheet
+c'est super !
+
+Correction d'un bug dans StyleSheet, le fichier était étrangement x par 2
+il manquait PlaceHolderCss.Controls.Clear(); en bas du code du bouton Sauver
+
+18/05/2009
+Ajout des fonctionnalités de prévenir sur l'enregistrement d'un nouveau membre
+Prévenir lors de la connexion d'un membre
+
+15/05/2009
+Régler le problème de l'authentification qui est Non casse sensitive dans MerberShipProvider.
+Quand on voit comment sont écrite les porcédures stockée c'est un scandale LOWER est utilisé pour 
+les comparaison
+
+16/12/2008
+Bug si une page est réservée on y accède quand même !
+Dans Page.aspx.cs
+private void ServePage( Guid id )
+{
+        if ( this.PagePost.IsReserved == true && User.Identity.IsAuthenticated == false )
+            Response.Redirect( Tools.PageErreurPath + "Cette page est réservée aux membres enregistrés", true );
+
+        if ( this.PagePost.IsPublished == false )
+            Response.Redirect( Tools.PageErreurPath + "La page :\"" + this.PagePost.Title + "\" n'est pas encore publiée", true );
+}
+
+Bug !? si le parent est supprimé ? je sais pas mais impossible d'éditer mes pages ...
+j'espère que c'est pas le cas en ligne
+c'était des pages fantomes dont le parent etait supprime mais pas dans l'attribut Parent de la page
+à surveiller
+
+09/11/2008
+Un peu de design graphic avec body-repeat-shim.gif
+
+12/08/08
+Correction Bug ? 
+Je ne sais pas en tout cas cela résoud le problème !
+Problème de l'authentification dans un pool d'appli web
+Controls\CommentView.ascx.cs
+GetCookie()
+J'avais un bug server que j'ai corrigé en testant à null
+MembershipUser user, je sais pas trop pourquoi ca marche !
+Il se trouve que sur la machine qui faisait ce bug serveur j'avais supprimé les cookies !
+
+Correction bug sur Default page et isfrontpage
+Correction bug sur IsReserved
+
+v1.2 sauvegarde avant de passer à 3.5
+
+La gestion des utilisateurs est encore perfectible.
+si on va se logguer sur le Questionnaire et que l'on revient dans la vitrine le bouton "Mes détails"
+explose, il n'y a pas de MemberInfos associées a cet utilisateur et pour cause !
+
+25/06/08
+ispublished, ne sert à rien !
+correction d'un bug sur dans le ServePage, le filtrage IsShowInList, Reserved, Autenticate est gérer dans MenuPanel.cs
+
+24/06/08
+autre facon de gerer les pages des auteurs
+
+21/06/08
+Petits soucis avec la gestion des utilisateurs, j'ai voulu intégrer la page Roles du LoginModule
+mais elle n'ai pas encore utile.
+
+20/06/08
+Grosse faille le Register, un utilisateur fraichement enregistrer peut supprimer des pages! 
+Découverte d'un parametre qui empeche ou autorise un user authentifié de passer d'une appli
+à l'autre :
+<authentication mode="Forms">
+    <forms name="LOGIN" loginUrl="~/Login.aspx" enableCrossAppRedirects="false"/>
+</authentication>
+
+Problème avec :
+base.AddMetaTag( "description", Server.HtmlEncode( this.PagePost.Description ) );
+Page.Header.Controls.Add
+
+this.PagePost.Description = "Description avec accents : à é"
+Server.HtmlEncode( this.PagePost.Description ) = "Description avec accents : &#224; &#233;"
+
+et dans cette salope de page on retrouve :
+<meta id="ctl00_ctl08" name="description" content="Description avec accents : &amp;#224; &amp;#233;" />
+
+n'importe quoi !!!
+
+03/06/08
+Correction Bug : Les pages n'étaient pas supprimés à cause de _pageFolder le fichier n'existait jamais !!
+du coup ca a entrainer un autre truc si une page n'a pas de titre on en trouve une autre a afficher
+dans la sauvegarde d'une page, si titre est vide alors titre==menu j'avais pense a ce truc 
+en developpant mais l'avais pas implanté
+
+28/05/08
+Correction de bug "rang" je mettais "dayscommentsareenable" à la place lors de la lecture !!
+Amélioration du design c'est fait par la possiblité de modifier les CSS et de charger des
+fichiers images dans le répertoire : App_Themes/Sodevlog/Images
+
+27/05/08
+J'ai supprimé la table de taille autour du bandeau mais je peux pas faire d'image de fond!
+Il faut absoluement améliorer le design, comment faire au travers des WebContent
+
+26/05/08
+amélioration : on se trouve avec un problème Title se retrouve dans les méta tags et si l'on veut
+correctement référencer une page il faut que le title soit explicite pour les moteurs de recherche
+sauf que l'on ne vaut pas de rallonge dans les menus !
+Titre remplacer par Menu
+et Titre pour les tags ajouté !
+
+correction : réécriture de RewritePage() Mad à quelques soucis avec les chaines de caractères
+et si je mettait un nom de page avec un accent boum !!
+
+amélioration : dans page admin le bouton sauver du haut retournait vers un page blanche
+
+amélioration : base.Title = Server.HtmlEncode( this.PagePost.Title );
+Page remplacé par PagePost sinon Title est toujours le titre de la page maitre !
+ce qui n'est pas bon npour le référencement
+
+avant de lancer la grande offensive vers le post plutot que la page
+1.1

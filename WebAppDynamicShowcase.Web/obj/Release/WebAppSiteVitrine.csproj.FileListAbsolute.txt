@@ -1,0 +1,6 @@
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\bin\WebAppSiteVitrine.dll.config
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\bin\WebAppSiteVitrine.dll
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\bin\WebAppSiteVitrine.pdb
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\obj\Release\WebAppSiteVitrine.csprojResolveAssemblyReference.cache
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\obj\Release\WebAppSiteVitrine.dll
+E:\Visual Studio\ASP.NET\WebAppSiteVitrine\WebAppSiteVitrine.Web\obj\Release\WebAppSiteVitrine.pdb

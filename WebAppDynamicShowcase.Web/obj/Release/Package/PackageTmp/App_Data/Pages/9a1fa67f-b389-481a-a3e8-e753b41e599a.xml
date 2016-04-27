@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <author>admin</author>
+  <menu>menu 4</menu>
+  <title>menu'3</title>
+  <description />
+  <content>[Pas de texte]</content>
+  <keywords />
+  <parent>4f8a780c-1197-405b-84e4-e3918f7bd724</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isreserved>False</isreserved>
+  <datecreated>2009-05-29 18:20:10</datecreated>
+  <datemodified>2009-05-29 18:20:10</datemodified>
+  <rang>1</rang>
+  <dayscommentsareenable>0</dayscommentsareenable>
+  <iscommentsenabled>True</iscommentsenabled>
+  <iscommentvisible>True</iscommentvisible>
+  <istitlevisible>True</istitlevisible>
+  <comments />
+</page>

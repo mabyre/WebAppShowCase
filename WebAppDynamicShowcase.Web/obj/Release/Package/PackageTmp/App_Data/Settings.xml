@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <rangpagesauteurmax>20</rangpagesauteurmax>
+  <sujetcourrielmaj>Mise à jour sur site Vitrine - </sujetcourrielmaj>
+  <loguser>vrai</loguser>
+  <membreverification>faux</membreverification>
+  <rangpagesauteurmin>10</rangpagesauteurmin>
+  <membreprevenirconnexion>faux</membreprevenirconnexion>
+  <virtualpath>~/</virtualpath>
+  <contactsparpagemin>5</contactsparpagemin>
+  <envoyermiseajour>faux</envoyermiseajour>
+  <htmlheader>&lt;meta name="verify-v1" content="WxWTd5guijKhUx3ZVjENI8c7fWg1+iAXc3LThTsuHiA=" /&gt;
+</htmlheader>
+  <membreprevenir>vrai</membreprevenir>
+  <textlabeldefaut>Bonjour et bienvenu(e) sur ce site, il n'y a pas de page par defaut</textlabeldefaut>
+  <enpiedsitevisible>vrai</enpiedsitevisible>
+  <editeurhauteur>350</editeurhauteur>
+  <contactsparpagemax>600</contactsparpagemax>
+  <adressewebmaster>webmaster@sodevlog.com</adressewebmaster>
+  <labelboutonquestion />
+  <contactsparpagecourant>50</contactsparpagecourant>
+  <avatar>monster</avatar>
+  <colonnedroitevisible>vrai</colonnedroitevisible>
+  <editeurelargir>80</editeurelargir>
+</Settings>

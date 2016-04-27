@@ -1,0 +1,147 @@
+body
+{
+    font-family: Arial; 
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Arial; 
+}
+
+/*********************
+** Liens automatiques
+*/
+
+/* si l'attribut href commence par http: */
+a[href^="http:"] 
+{
+    background : url(Images/lien_extern.png) right top no-repeat;
+    padding-right: 18px;
+    white-space: nowrap;
+}
+
+/* si l'attribut target commence par _self */
+a[target^="_self"]
+{
+    background-position: right center;
+    background: url(Images/lien_intern.png) left no-repeat;
+    padding-left: 22px;
+    white-space: nowrap;
+}
+
+/* en suite on distingue les differents liens par leur class */
+a[class^="lien_image"]
+{
+    background: none; /* suppression de l'image de lien */
+    text-decoration:none;
+}
+
+a[class^="lien_image_intern"]
+{
+    background-position: right center;
+    background: url(Images/lien_intern.png) left no-repeat;
+    padding-left: 22px;
+    white-space: nowrap;
+    text-decoration:none;
+}
+
+a[class^="lien_mail_to"]
+{
+    background-position: right center;
+    background: url(Images/mail_to.png) left no-repeat;
+    padding-left: 22px;
+    white-space: nowrap;
+}
+
+.TableBandeauSiteStyle
+{
+    border:none 0px;
+    /*border:solid 1px Red; /* DEBUG */
+    background:url(Images/background.gif);
+    /*background:url(Images/background_live_id.bmp);*/
+}
+
+.TdLoginBannerStyle
+{
+    padding:20px;
+}
+
+.TableMenuPanelStyle
+{
+    border:none 0px;
+    /*border:solid Blue 1px; /* DEBUG */
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
+.TablePagesStyle
+{
+    border:none 0px;
+}
+
+.TdColonneGaucheStyle
+{
+    background-color:#CEE6FF;
+}
+
+.TdColonneCentreStyle
+{
+	background-repeat: repeat-y;
+	background-image: url(images/body-repeat-shim.gif);
+	margin-left: 0;
+	margin-right: auto;
+    text-align:center;
+}
+
+.TdColonneDroiteStyle
+{
+	background-repeat: repeat-y;
+	background-image: url(images/body-repeat-right.gif);
+    text-align:right;
+    padding:0px;
+    width:250px;
+    /*background-color:#F1F1F1;*/
+    background-color:#CEE6FF;
+}
+
+.TableEnpiedSiteStyle
+{
+    border:none 0px;
+}
+
+.TdEnpiedSiteStyle
+{
+    border:none 0px;
+    background-color:#A8CEF2;
+}
+
+.TdLabelStyle
+{
+    font-size:12px;
+    width:180px;
+}
+
+.LabelBlueStyle
+{ 
+    color:Blue;
+    font-size:12px;
+    font-weight:normal;
+    font-family: Verdana; 
+}
+
+.LabelRedStyle
+{ 
+    color:Red;
+    font-size:12px;
+    font-weight:normal;
+    font-family: Verdana; 
+}
+
+.LabelGreenStyle
+{ 
+    color:Green;
+    font-size:12px;
+    font-weight:normal;
+    font-family: Verdana; 
+}
