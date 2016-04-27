@@ -4,4 +4,3 @@ This project is managed by Mabyre who is a member of the company SoDevLog
 
 This will develop
 # So stay tuned
-
