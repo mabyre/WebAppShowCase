@@ -8,7 +8,7 @@ This project is managed by Mabyre who is a member of the company SoDevLog
 
 # Get started
 1. Clone repository
-1. Open solution in Visual Studio 2015
+1. Open solution in Visual Studio 2013 or more
 1. Builld and run solution to load website in the browser
 1. Use admin/admin to log into website administration
 
