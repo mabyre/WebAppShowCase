@@ -1,0 +1,6 @@
+{
+  "name": "WebAppShowCase",
+  "tagline": "ASP.NET Application a web site that dynamicly present content",
+  "body": "# WebApp Dynamic ShowCase\r\nThis application is a web site an ASP.NET Application that dynamicly present content into pages that you can organise in a user's menu.\r\nThis project is managed by Mabyre who is a member of the company SoDevLog\r\n\r\n# Environment\r\n* Visual Studio 2013 +\r\n* ASP.NET 4.5 +\r\n\r\n# Get started\r\n1. Clone repository\r\n1. Open solution in Visual Studio 2013 or more\r\n1. Builld and run solution to load website in the browser\r\n1. Use admin/admin to log into website administration\r\n\r\n![Front Page](http://images.sodevlog.fr/2016-04-27_10h21_29.png)\r\n\r\nThis will develop\r\n## So stay tuned\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
