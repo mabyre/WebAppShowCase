@@ -12,7 +12,5 @@ This project is managed by Mabyre who is a member of the company SoDevLog
 1. Builld and run solution to load website in the browser
 1. Use admin/admin to log into website administration
 
-![Front Page](http://images.sodevlog.fr/2016-04-27_10h21_29.png)
-
 This will develop
-## So stay tuned
+## So we stay tuned
