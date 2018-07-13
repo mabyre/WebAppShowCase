@@ -9,10 +9,11 @@ This project is managed by Mabyre who is a member of the company SoDevLog
 # Get started
 1. Clone repository
 1. Open solution in Visual Studio 2013 or more
-1. Builld and run solution to load website in the browser
-1. Use admin/admin to log into website administration
+1. Builld and Run solution to load website in the browser
+1. Use **admin/admin** to log into website administration
 
-https://drive.google.com/open?id=0B0LAaGkLHCctV0lfWnAtWlIwMW8
+You will see the front page :
+[Dynamic Showcase Front Page](https://drive.google.com/open?id=0B0LAaGkLHCctV0lfWnAtWlIwMW8)
 
 This will develop
 ## So we stay tuned
