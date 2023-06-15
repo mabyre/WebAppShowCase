@@ -5,6 +5,7 @@ This project is managed by Mabyre who is a member of the company SoDevLog.
 # Requirements
 * Visual Studio 2017 +
 * ASP.NET 4.5 +
+* SQLServer
 
 # Getting started
 1. Clone repository
